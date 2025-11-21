@@ -25,6 +25,67 @@
   <link rel="stylesheet" type="text/css" href="style/style.css">
 </head>
 
+<style type="text/css">
+  /* Pastikan modal selalu berada paling depan */
+.modal {
+  z-index: 9999 !important;
+}
+
+/* Pastikan backdrop juga berada di belakang modal tapi tetap tinggi */
+.modal-backdrop {
+  z-index: 9998 !important;
+}
+
+  .layanan-img {
+    width: 200px;       /* ukuran gambar seragam */
+    height: 150px;
+    object-fit: contain; /* menjaga proporsi */
+    transition: transform 0.3s;
+  }
+
+  .layanan-img:hover {
+    transform: scale(1.1); /* efek hover */
+  }
+
+   /* Container slider */
+  .slider {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+  }
+
+  /* Track bergerak */
+  .slide-track {
+    display: flex;
+    width: calc(200px * 14); /* 14 gambar total (7 asli + 7 duplikat) */
+    animation: scroll 25s linear infinite;
+  }
+
+  /* Animasi scroll */
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-200px * 7)); /* geser 7 gambar */
+    }
+  }
+
+  /* Gambar */
+  .layanan-img {
+    width: 180px;
+    height: 120px;
+    object-fit: contain;
+    margin: 0 40px;
+    transition: transform 0.3s;
+  }
+
+  .layanan-img:hover {
+    transform: scale(1.1);
+  }
+
+</style>
+
 <body>
 
 <!-- Navbar -->
@@ -71,6 +132,8 @@
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="tusi.php">Tugas dan Fungsi</a></li>
                         <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#strukturModal">Struktur Organisasi</a></li>
+                        <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#paktaIntegritas">Pakta Integritas</a></li>
+                        <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#keuangan">Pagu Anggaran TA 2025</a></li>
                     </ul>
                 </li>  
             </ul>
@@ -94,6 +157,35 @@
   </div>
 </div>
 
+<!-- Modal Pakta Integritas -->
+<div class="modal fade" id="paktaIntegritas" tabindex="-1" aria-labelledby="paktaIntegritas" aria-hidden="true">
+  <div class="modal-dialog modal-xl modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="paktaIntegritasLabel">Pakta Integritas</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body text-center">
+        <img src="img/integritas.jpeg" alt="Pakta Integritas" class="img-fluid rounded shadow">
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal keuangan -->
+<div class="modal fade" id="keuangan" tabindex="-1" aria-labelledby="keuangan" aria-hidden="true">
+  <div class="modal-dialog modal-xl modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="keuanganLabel">Pagu Anggaran TA 2025</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body text-center">
+        <img src="img/keuangan.png" alt="Keuangan" class="img-fluid rounded shadow">
+      </div>
+    </div>
+  </div>
+</div>
 
 <br><br><br><br><br><br>
 <!-- SECTION ABOUT: KALIMANDAU -->
@@ -451,6 +543,165 @@
     </div>
   </div>
 <br><br><br><br>
+
+
+<!-- bagian section Layanan Terkait -->
+<section class="layanan-terkait py-5 bg-white" data-aos="fade-up">
+  <div class="container">
+    <h3 class="mb-4 fw-bold text-center text-primary">Layanan Terkait</h3>
+
+    <div class="slider">
+      <div class="slide-track">
+        
+        <!-- ULANGI GAMBAR 2x AGAR LOOP HALUS -->
+        
+        <!-- Gambar asli -->
+        <a href="https://sippn.menpan.go.id/" target="blank">
+          <img src="uploads/1247706655_icon_PAN-RB.png" class="layanan-img">
+        </a>
+
+        <a href="https://www.lapor.go.id/" target="blank">
+          <img src="uploads/1967987138_icon_lapor.png" class="layanan-img">
+        </a>
+
+        <a href="https://sahabat.pu.go.id/eppid/" target="blank">
+          <img src="uploads/152554528_icon_eppid.png" class="layanan-img">
+        </a>
+
+        <a href="https://gol.itjen.pu.go.id/" target="blank">
+          <img src="uploads/1741312358_icon_egratifikasi.png" class="layanan-img">
+        </a>
+
+        <a href="https://wispu.pu.go.id/" target="blank">
+          <img src="uploads/1382854572_icon_wispu.png" class="layanan-img">
+        </a>
+
+        <a href="https://wispu.pu.go.id/" target="blank">
+          <img src="img/wrdc.png" class="layanan-img">
+        </a>
+
+        <a href="https://sihka.sda.pu.go.id/sign-in" target="blank">
+          <img src="img/sihla.png" class="layanan-img">
+        </a>
+
+        <!-- Duplikasi agar loop tidak putus -->
+        <a href="https://sippn.menpan.go.id/" target="blank">
+          <img src="uploads/1247706655_icon_PAN-RB.png" class="layanan-img">
+        </a>
+
+        <a href="https://www.lapor.go.id/" target="blank">
+          <img src="uploads/1967987138_icon_lapor.png" class="layanan-img">
+        </a>
+
+        <a href="https://sahabat.pu.go.id/eppid/" target="blank">
+          <img src="uploads/152554528_icon_eppid.png" class="layanan-img">
+        </a>
+
+        <a href="https://gol.itjen.pu.go.id/" target="blank">
+          <img src="uploads/1741312358_icon_egratifikasi.png" class="layanan-img">
+        </a>
+
+        <a href="https://wispu.pu.go.id/" target="blank">
+          <img src="uploads/1382854572_icon_wispu.png" class="layanan-img">
+        </a>
+
+        <a href="https://wispu.pu.go.id/" target="blank">
+          <img src="img/wrdc.png" class="layanan-img">
+        </a>
+
+        <a href="https://sihka.sda.pu.go.id/sign-in" target="blank">
+          <img src="img/sihla.png" class="layanan-img">
+        </a>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+<!-- bagian section Layanan Terkait -->
+
+
+<!-- bagian section FAQ -->
+<section class="faq py-5 bg-light">
+  <div class="container">
+    <h3 class="text-center fw-bold mb-4 text-primary">Frequently Asked Questions</h3>
+
+    <div class="accordion" id="faqAccordion">
+
+      <!-- FAQ 1 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faqHeading1">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse1" aria-expanded="false" aria-controls="faqCollapse1">
+            Apa itu KALIMANDAU BWS Kalimantan V?
+          </button>
+        </h2>
+        <div id="faqCollapse1" class="accordion-collapse collapse" aria-labelledby="faqHeading1" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            <b><strong>KALIMANDAU</strong> adalah aplikasi Layanan Informasi Publik milik Balai Wilayah Sungai Kalimantan V Tanjung Selor yang menekankan prinsip keterbukaan, efisiensi, dan akuntabilitas dalam menyediakan informasi kepada masyarakat dengan mengadopsi konsep satu pintu.</b>
+          </div>
+        </div>
+      </div>
+
+      <!-- FAQ 2 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faqHeading2">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse2" aria-expanded="false" aria-controls="faqCollapse2">
+            Apakah seluruh Informasi Publik adalah informasi yang dapat diakses oleh Publik?
+          </button>
+        </h2>
+        <div id="faqCollapse2" class="accordion-collapse collapse" aria-labelledby="faqHeading2" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            Ya. Seluruh Informasi Publik dapat diakses oleh masyarakat, kecuali informasi yang dikecualikan/rahasia.
+          </div>
+        </div>
+      </div>
+
+      <!-- FAQ 3 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faqHeading3">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse3" aria-expanded="false" aria-controls="faqCollapse3">
+            Berapa lama pemohon informasi publik mendapat pemberitahuan tertulis atas permohonan yang diajukan?
+          </button>
+        </h2>
+        <div id="faqCollapse3" class="accordion-collapse collapse" aria-labelledby="faqHeading3" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            Kementerian PUPR menyampaikan tanggapan tertulis atas permohonan informasi publik maksimal 10 hari kerja sejak permohonan diterima, dan dapat diperpanjang 7 hari kerja.
+          </div>
+        </div>
+      </div>
+
+      <!-- FAQ 4 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faqHeading4">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse4" aria-expanded="false" aria-controls="faqCollapse4">
+            Adakah Biaya Tarif dalam layanan informasi publik?
+          </button>
+        </h2>
+        <div id="faqCollapse4" class="accordion-collapse collapse" aria-labelledby="faqHeading4" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            Layanan informasi publik tidak dipungut biaya. Namun biaya penggandaan atau perekaman ditanggung oleh pemohon, kecuali informasi yang sudah memiliki tarif resmi PNBP.
+          </div>
+        </div>
+      </div>
+
+      <!-- FAQ 5 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faqHeading5">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse5" aria-expanded="false" aria-controls="faqCollapse5">
+            Waktu layanan informasi?
+          </button>
+        </h2>
+        <div id="faqCollapse5" class="accordion-collapse collapse" aria-labelledby="faqHeading5" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            Layanan informasi dilaksanakan pada hari kerja, Senin sampai Jumat pukul 08.00 – 16.00 WIB.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- bagian section FAQ -->
+
 <footer class="bg-dark text-light pt-5 pb-3">
   <div class="container text-center"> <!-- Tambahkan text-center di sini -->
     <div class="row justify-content-center">
