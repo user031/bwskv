@@ -576,7 +576,7 @@
           <img src="uploads/1382854572_icon_wispu.png" class="layanan-img">
         </a>
 
-        <a href="https://wispu.pu.go.id/" target="blank">
+        <a href="https://pdsda.sda.pu.go.id/" target="blank">
           <img src="img/wrdc.png" class="layanan-img">
         </a>
 
@@ -835,4 +835,5 @@
 
 </body>
 </html>
+
 
