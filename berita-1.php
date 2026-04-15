@@ -113,30 +113,22 @@
   <div class="row gx-5">
     <!-- Kolom Utama -->
     <div class="col-lg-8">
-      <h1 class="news-title mb-3">Sidang Pleno Ke-2 TKPSDA WS Sesayap Tahun 2025.</h1>
-      <p class="news-meta mb-4"><i class="bi bi-calendar-event"></i> 25 Agustus 2025 | <i class="bi bi-person-circle"></i> Admin BWSKALV</p>
+      <h1 class="news-title mb-3">Silaturahmi & Sapa Balai Kementerian Pekerjaan Umum</h1>
+      <p class="news-meta mb-4"><i class="bi bi-calendar-event"></i> 27 Maret 2026 | <i class="bi bi-person-circle"></i> Humas BWSKALV</p>
       
       <div class="news-content">
         <img src="uploads/img_1.jpg" alt="Berita 1">
         <p>
-          Balai Wilayah Sungai Kalimantan V Tanjung Selor menyelenggarakan 💧 Sidang Pleno Ke-2 TKPSDA WS Sesayap Tahun 2025
+Silaturahmi dan Sapa Balai hari ini dipimpin langsung oleh Menteri PU, Dody Hanggodo, bersama Wakil Menteri PU, Diana Kusumastuti.
+Dalam arahannya, beliau menegaskan bahwa seluruh jajaran tidak hanya dituntut untuk bekerja profesional, tetapi juga bertanggung jawab menjaga keselamatan masyarakat serta memastikan setiap kebijakan yang diambil benar-benar berpihak pada rakyat.
 
-          Sidang Pleno Ke-2 Tim Koordinasi Pengelolaan Sumber Daya Air Wilayah Sungai Sesayap membahas dua agenda utama:
-        </p>
-        <p>
-          🔹 Penetapan Pedoman Perhitungan Indeks Ketahanan Air Wilayah Sungai (IKtA WS)<br>
-          🔹 Monitoring dan Evaluasi Pendayagunaan Kelembagaan SDA
-        </p>
-          Melalui forum ini, seluruh pemangku kepentingan turut menyumbangkan pemikiran dan kolaborasi dalam mewujudkan tata kelola SDA yang lebih berkelanjutan, inklusif, dan terpadu.
+Melalui momen ini, diharapkan koordinasi, semangat pelayanan, dan komitmen jajaran PU semakin kuat dalam mendukung pembangunan infrastruktur yang berkelanjutan dan bermanfaat bagi seluruh lapisan masyarakat.
 
-          Kegiatan ini juga menyoroti peran aktif GN-KPA, Provinsi dan Kabupaten /Kota keterlibatan masyarakat, dan sinergi lintas sektor untuk penyelamatan air bagi generasi mendatang. 🌱
-
-          #SigapMembangunNegeriUntukRakyat #TKPSDA #SumberDayaAir #IKtAWS #KalimantanUtara #SidangPlenoTKPSDA
         </p>
       </div>
 
       <div class="mt-4">
-        <a href="bwskalimantan5/" class="btn btn-outline-primary"><i class="bi bi-arrow-left"></i> Kembali ke Berita</a>
+        <a href="index" class="btn btn-outline-primary"><i class="bi bi-arrow-left"></i> Kembali ke Berita</a>
       </div>
     </div>
 
@@ -145,11 +137,11 @@
       <div class="sidebar-card">
         <h5>Berita Lainnya</h5>
         <ul class="list-group list-group-flush">
-          <li class="list-group-item"><a href="berita-1.php">🌐 Sidang Pleno Ke-2 TKPSDA WS Sesayap Tahun 2025</a></li>
-          <li class="list-group-item"><a href="berita-2.php">🌐 Penandatanganan Kontrak Pekerjaan Pembangunan Pengaman Pantai Padaidi (Lanjutan)</a></li>
-          <li class="list-group-item"><a href="berita-3.php">🌐 Penandatanganan Kontrak Paket Tender/Seleksi Bidang Irigasi dan Rawa</a></li>
-          <li class="list-group-item"><a href="berita-4.php">🌐 Sidang Pleno Ke-I TKPSDA WS Berau - Kelai Tahun 2025</a></li>
-          <li class="list-group-item"><a href="berita-5.php">🌐 Pengembangan Kapasitas TPM untuk sukseskan P3-TGAI Tahun 2025</a></li>
+          <li class="list-group-item"><a href="berita-1">🌐 Silaturahmi & Sapa Balai Kementerian Pekerjaan Umum</a></li>
+          <li class="list-group-item"><a href="berita-2">🌐 Selamat Hari Raya Idulfitri 1447 H</a></li>
+          <li class="list-group-item"><a href="berita-3">🌐 Penandatanganan Kontrak Paket Tender/Seleksi Bidang Irigasi dan Rawa</a></li>
+          <li class="list-group-item"><a href="berita-4">🌐 Sidang Pleno Ke-I TKPSDA WS Berau - Kelai Tahun 2025</a></li>
+          <li class="list-group-item"><a href="berita-5">🌐 Pengembangan Kapasitas TPM untuk sukseskan P3-TGAI Tahun 2025</a></li>
         </ul>
       </div>
     </div>
