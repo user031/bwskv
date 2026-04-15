@@ -114,7 +114,7 @@
   <div class="row gx-5">
     <!-- Kolom Utama -->
     <div class="col-lg-8">
-      <h1 class="news-title mb-3">Penandatanganan Kontrak Pekerjaan Pembangunan Pengaman Pantai Padaidi (Lanjutan)</h1>
+      <h1 class="news-title mb-3">Selamat Hari Raya Idulfitri 1447 H</h1>
       <p class="news-meta mb-4"><i class="bi bi-calendar-event"></i> 21 Maret 2026 | <i class="bi bi-person-circle"></i> Humas BWSKALV</p>
       
       <div class="news-content">
