@@ -43,7 +43,7 @@
       border-radius: 15px;
       box-shadow: 0 4px 12px rgba(0,0,0,0.08);
       padding: 20px;  
-      margin-top: 130px; /* ✅ tambahkan margin-top agar turun sejajar dengan img */
+      margin-top: 140px; /* ✅ tambahkan margin-top agar turun sejajar dengan img */
     }
     .sidebar-card h5 {
       font-weight: 700;
@@ -114,34 +114,22 @@
   <div class="row gx-5">
     <!-- Kolom Utama -->
     <div class="col-lg-8">
-      <h1 class="news-title mb-3">Penandatanganan Kontrak Paket Tender/Seleksi Bidang Irigasi dan Rawa</h1>
-      <p class="news-meta mb-4"><i class="bi bi-calendar-event"></i> 25 Agustus 2025 | <i class="bi bi-person-circle"></i> Admin BWSKALV</p>
+      <h1 class="news-title mb-3">Selamat Hari Air Dunia 💧</h1>
+      <p class="news-meta mb-4"><i class="bi bi-calendar-event"></i>23 Maret 2026 | <i class="bi bi-person-circle"></i> Humas BWSKALV</p>
       
       <div class="news-content">
         <img src="uploads/img_3.jpg" alt="Berita 1">
           <p>
-            Dalam rangka melaksanakan Penandatanganan Kontrak Paket Tender/Seleksi Bidang Irigasi dan Rawa SNVT Pelaksanaan Jaringan Pemanfaatan Air Kalimantan V Provinsi Kalimantan Utara Tahun Anggaran 2025 Bersama mitra @wijayakaryaofficial
-            <br><br>
-          Lalu Apa saja yang akan dikerjakan ?<br>
-          ✅ Rehabilitasi jaringan irigasi <br>
-          ✅ Pembangunan & perbaikan pintu air <br>
-          ✅ Lanjutan pembangunan jaringan irigasi di lembudud, Nunukan <br><br>
-        
-          Dalam kesempatan ini juga telah menjaring tenaga ahli dan inspektur terbaik yang siap mendukung pengawasan dan pelaksanaan pembangunan jaringan irigasi di Kalimantan Utara.
+            Selamat Hari Air Dunia 💧<br>
 
-          Kepala BWS Kalimantan V Tanjung Selor Bpk. Mustafa.S.ST.MT juga memberikan arahan kepada seluruh mitra bahwa setiap kegiatan yang di bangun harus memberi dampak atau manfaat secara signifikan kepada masyarakat sekitar agar bisa merasakannya.
-          Kami percaya bahwa pembangunan infrastruktur air bukan sekadar proyek, tapi investasi untuk ketahanan pangan, kemajuan pertanian, dan kesejahteraan masyarakat.
+            “Di mana air mengalir, kesetaraan tumbuh.” Melalui penyediaan akses air bersih dan sanitasi yang merata, Kementerian Pekerjaan Umum berkomitmen mewujudkan kehidupan adil, sehat, dan berkelanjutan.
 
-          Salam kolaborasi untuk kemajuan pertanian dan ketahanan pangan di Kalimantan Utara!<br>
-
-          #SiapMembangunNegriUntukRakyat
-          #MengelolaAirUntukNegri
-          #bwskalimantan5
+            Karena akses air bersih yang merata adalah kunci masa depan bersama.
           </p>
       </div>
 
         <div class="mt-4">
-        <a href="index.php" class="btn btn-outline-primary"><i class="bi bi-arrow-left"></i> Kembali ke Berita</a>
+        <a href="index" class="btn btn-outline-primary"><i class="bi bi-arrow-left"></i> Kembali ke Berita</a>
       </div>
     </div>
 
@@ -151,11 +139,11 @@
       <div class="sidebar-card">
         <h5>Berita Lainnya</h5>
         <ul class="list-group list-group-flush">
-          <li class="list-group-item"><a href="berita-1.php">🌐 Sidang Pleno Ke-2 TKPSDA WS Sesayap Tahun 2025</a></li>
-          <li class="list-group-item"><a href="berita-2.php">🌐 Penandatanganan Kontrak Pekerjaan Pembangunan Pengaman Pantai Padaidi (Lanjutan)</a></li>
-          <li class="list-group-item"><a href="berita-3.php">🌐 Penandatanganan Kontrak Paket Tender/Seleksi Bidang Irigasi dan Rawa</a></li>
-          <li class="list-group-item"><a href="berita-4.php">🌐 Sidang Pleno Ke-I TKPSDA WS Berau - Kelai Tahun 2025</a></li>
-          <li class="list-group-item"><a href="berita-5.php">🌐 Pengembangan Kapasitas TPM untuk sukseskan P3-TGAI Tahun 2025</a></li>
+          <li class="list-group-item"><a href="berita-1">🌐 Silaturahmi & Sapa Balai Kementerian Pekerjaan Umum</a></li>
+          <li class="list-group-item"><a href="berita-2">🌐 Selamat Hari Raya Idulfitri 1447 H</a></li>
+          <li class="list-group-item"><a href="berita-3">🌐 Selamat Hari Air Dunia 💧</a></li>
+          <li class="list-group-item"><a href="berita-4">🌐 Kesiapan Posko Arus Mudik Idul Fitri 2026</a></li>
+          <li class="list-group-item"><a href="berita-5">🌐 Rapat Pendahuluan Self-Assessment RBO-PB</a></li>
         </ul>
       </div>
     </div>

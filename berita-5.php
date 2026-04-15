@@ -90,7 +90,7 @@
 <!-- Navbar -->
 <nav class="navbar navbar-expand-lg bg-white shadow-sm fixed-top">
   <div class="container-fluid px-5">
-    <a class="navbar-brand fw-bold" href="index.html">
+    <a class="navbar-brand fw-bold" href="/balai/bwskalimantan5/">
       <img src="img/bwskv.png" alt="Logo" height="40" class="rounded me-2">
       BWS Kalimantan V
     </a>
@@ -114,28 +114,26 @@
   <div class="row gx-5">
     <!-- Kolom Utama -->
     <div class="col-lg-8">
-      <h1 class="news-title mb-3">Pengembangan Kapasitas TPM untuk sukseskan P3-TGAI Tahun 2025</h1>
-      <p class="news-meta mb-4"><i class="bi bi-calendar-event"></i> 25 Agustus 2025 | <i class="bi bi-person-circle"></i> Admin BWSKALV</p>
+      <h1 class="news-title mb-3">Rapat Pendahuluan Self-Assessment RBO-PB</h1>
+      <p class="news-meta mb-4"><i class="bi bi-calendar-event"></i> 5 Maret 2026 | <i class="bi bi-person-circle"></i> Humas BWSKALV</p>
       
       <div class="news-content">
-        <img src="uploads/img_7.jpg" alt="Berita 1">
+        <img src="uploads/img_5.jpg" alt="Berita 1">
           <p>
-          Dalam rangka menyukseskan Program Percepatan Peningkatan Tata Guna Air Irigasi (P3TGAI), kami menyelenggarakan Pelatihan Tenaga Pendamping Masyarakat (TPM) yang memiliki peran strategis dalam mendampingi kelompok tani pada pelaksanaan kegiatan pembangunan dan rehabilitasi jaringan irigasi tersier.
+            Balai Wilayah Sungai Kalimantan V Tanjung Selor melaksanakan kegiatan Gerakan Irigasi Bersih di Daerah Irigasi (D.I) Tanjung Aru Kab. Sebatik Kalimantan Utara dilanjutkan dengan diskusi bersama dengan tema "Irigasi sebagai Penopang Swasembada Pangan", berkolaborasi dengan Dinas Pertanian, Dinas PUPR Kab Nunukan, DPRD Kab Nunukan dan Pihak Akademis Politeknik Kab Nunukan, serta P3A dan Gabungan Kelompok Tanitani D.I. Tanjung Aru.
 
-          Pelatihan ini dirancang untuk memberikan bekal yang komprehensif kepada para TPM, mencakup:
+            Kegiatan ini merupakan bagian dari rangkaian peringatan HUT ke-80 Republik Indonesia, sekaligus aksi nyata sebagai upaya menjaga kelancaran aliran air irigasi demi keberlangsungan produksi pangan.
 
-          Pemahaman teknis, meliputi prinsip-prinsip dasar irigasi, perencanaan dan pelaksanaan pekerjaan konstruksi sederhana, serta pengelolaan dan pemeliharaan jaringan irigasi agar berfungsi optimal.
+            BWS Kalimantan V memegang peran strategis dalam mendukung Asta Cita Presiden RI Bapak Prabowo Subianto, khususnya swasembada pangan. Dengan pemeliharaan dan rehabilitasi jaringan irigasi, ketersediaan air untuk lahan pertanian dapat terjamin sehingga produktivitas pangan tetap terjaga.
 
-          Kapasitas administratif, mencakup tata cara penyusunan dokumen perencanaan, laporan administrasi, mekanisme pertanggungjawaban keuangan, serta prosedur pengawasan sesuai dengan aturan yang berlaku.
+            Menurut gabungan kelompok tani setempat, rehabilitasi jaringan irigasi oleh BWS Kalimantan V telah membantu mengurangi genangan dan banjir yang sebelumnya kerap merendam lahan persawahan mereka, sehingga aktivitas bercocok tanam menjadi lebih lancar dan hasil panen lebih optimal.
 
-          Etika pendampingan masyarakat, yaitu keterampilan komunikasi, fasilitasi musyawarah kelompok, penguatan partisipasi petani, serta pembinaan agar pelaksanaan program berjalan secara transparan, akuntabel, dan partisipatif.
-
-          Melalui pelatihan ini, diharapkan para TPM tidak hanya memahami aspek teknis, tetapi juga mampu menjadi garda terdepan dalam mendorong kemandirian kelompok tani, memastikan setiap tahapan program berjalan tepat sasaran, serta mendukung peningkatan produktivitas pertanian. Dengan demikian, keberhasilan program P3TGAI akan memberikan kontribusi nyata terhadap peningkatan kesejahteraan petani, ketahanan pangan, dan pengelolaan sumber daya air yang berkelanjutan di daerah.
+            Melalui kegiatan ini, diharapkan terjalin sinergi antara pemerintah, masyarakat, dan seluruh pemangku kepentingan dalam menjaga jaringan irigasi dan kelestarian lingkungan.
           </p>
       </div>
 
       <div class="mt-4">
-        <a href="index.php" class="btn btn-outline-primary"><i class="bi bi-arrow-left"></i> Kembali ke Berita</a>
+        <a href="index" class="btn btn-outline-primary"><i class="bi bi-arrow-left"></i> Kembali ke Berita</a>
       </div>
     </div>
 
@@ -145,11 +143,11 @@
       <div class="sidebar-card">
         <h5>Berita Lainnya</h5>
         <ul class="list-group list-group-flush">
-          <li class="list-group-item"><a href="berita-1.php">🌐 Sidang Pleno Ke-2 TKPSDA WS Sesayap Tahun 2025</a></li>
-          <li class="list-group-item"><a href="berita-2.php">🌐 Penandatanganan Kontrak Pekerjaan Pembangunan Pengaman Pantai Padaidi (Lanjutan)</a></li>
-          <li class="list-group-item"><a href="berita-3.php">🌐 Penandatanganan Kontrak Paket Tender/Seleksi Bidang Irigasi dan Rawa</a></li>
-          <li class="list-group-item"><a href="berita-4.php">🌐 Sidang Pleno Ke-I TKPSDA WS Berau - Kelai Tahun 2025</a></li>
-          <li class="list-group-item"><a href="berita-5.php">🌐 Pengembangan Kapasitas TPM untuk sukseskan P3-TGAI Tahun 2025</a></li>
+          <li class="list-group-item"><a href="berita-1">🌐 Silaturahmi & Sapa Balai Kementerian Pekerjaan Umum</a></li>
+          <li class="list-group-item"><a href="berita-2">🌐 Selamat Hari Raya Idulfitri 1447 H</a></li>
+          <li class="list-group-item"><a href="berita-3">🌐 Selamat Hari Air Dunia 💧</a></li>
+          <li class="list-group-item"><a href="berita-4">🌐 Kesiapan Posko Arus Mudik Idul Fitri 2026</a></li>
+          <li class="list-group-item"><a href="berita-5">🌐 Rapat Pendahuluan Self-Assessment RBO-PB</a></li>
         </ul>
       </div>
     </div>

@@ -115,26 +115,24 @@
     <!-- Kolom Utama -->
     <div class="col-lg-8">
       <h1 class="news-title mb-3">Penandatanganan Kontrak Pekerjaan Pembangunan Pengaman Pantai Padaidi (Lanjutan)</h1>
-      <p class="news-meta mb-4"><i class="bi bi-calendar-event"></i> 25 Agustus 2025 | <i class="bi bi-person-circle"></i> Admin BWSKALV</p>
+      <p class="news-meta mb-4"><i class="bi bi-calendar-event"></i> 21 Maret 2026 | <i class="bi bi-person-circle"></i> Humas BWSKALV</p>
       
       <div class="news-content">
         <img src="uploads/img_2.jpg" alt="Berita 1">
         <p>
-        Penandatanganan Kontrak Pekerjaan Pembangunan Pengaman Pantai Padaidi (Lanjutan)
-        SNVT PJSA Kalimantan V Provinsi Kalimantan Utara bersama PT. Cahaya Baru Prima dan PT. Indoplan Inti Patria resmi menandatangani kontrak Tahun Anggaran 2025 untuk pekerjaan pembangunan pengaman pantai di Pulau Sebatik, Kabupaten Nunukan.
-        Pekerjaan meliputi:
-        </p>
-        <p>*Pekerjaa meliputi* :
-        Breakwater (pemecah gelombang) adalah struktur yang dibangun di perairan untuk mengurangi energi gelombang sebelum mencapai pantai, pelabuhan, atau area tertentu.
-        *Fungsinya adalah* : mengurangi energi gelombang, melindungi pantai dari abrasi, menjaga stabilitas garis pantai, mendukung pembangunan infrastruktur laut
-        </p>
-        Dalam arahannya, Bpk. Mustafa, S.ST.,MT. Kepala Balai Wilayah Sungai Kalimantan V Tanjung Selor menegaskan pentingnya sinergi semua pihak untuk mendukung ketahanan wilayah pesisir serta berkontribusi dalam program nasional swasembada pangan, sejalan dengan semangat pembangunan infrastruktur sumber daya air yang berkelanjutan.
+            Keluarga Besar BWS Kalimantan V Tanjung Selor mengucapkan
 
-        #SigapMembangunNegeriUntukRakyat #SDAKaltara #PengamanPantai #Sebatik #KontrakPekerjaan #InfrastrukturSDA
+            Selamat Hari Raya Idulfitri 1447 H
+            Taqabbalallahu minna wa minkum, shiyamana wa shiyamakum
+
+            Di hari yang fitri ini, mari kita sucikan hati, saling memaafkan, dan mempererat tali silaturahmi. Semoga kebahagiaan, kedamaian, dan keberkahan senantiasa menyertai kita semua
+
+            Mohon maaf lahir dan batin🙏🏻🤲🏻
+        </p>
       </div>
 
       <div class="mt-4">
-        <a href="index.php" class="btn btn-outline-primary"><i class="bi bi-arrow-left"></i> Kembali ke Berita</a>
+        <a href="index" class="btn btn-outline-primary"><i class="bi bi-arrow-left"></i> Kembali ke Berita</a>
       </div>
     </div>
 
@@ -144,11 +142,11 @@
       <div class="sidebar-card">
         <h5>Berita Lainnya</h5>
         <ul class="list-group list-group-flush">
-          <li class="list-group-item"><a href="berita-1.php">🌐 Sidang Pleno Ke-2 TKPSDA WS Sesayap Tahun 2025</a></li>
-          <li class="list-group-item"><a href="berita-2.php">🌐 Penandatanganan Kontrak Pekerjaan Pembangunan Pengaman Pantai Padaidi (Lanjutan)</a></li>
-          <li class="list-group-item"><a href="berita-3.php">🌐 Penandatanganan Kontrak Paket Tender/Seleksi Bidang Irigasi dan Rawa</a></li>
-          <li class="list-group-item"><a href="berita-4.php">🌐 Sidang Pleno Ke-I TKPSDA WS Berau - Kelai Tahun 2025</a></li>
-          <li class="list-group-item"><a href="berita-5.php">🌐 Pengembangan Kapasitas TPM untuk sukseskan P3-TGAI Tahun 2025</a></li>
+          <li class="list-group-item"><a href="berita-1">🌐 Silaturahmi & Sapa Balai Kementerian Pekerjaan Umum</a></li>
+          <li class="list-group-item"><a href="berita-2">🌐 Selamat Hari Raya Idulfitri 1447 H</a></li>
+          <li class="list-group-item"><a href="berita-3">🌐 Selamat Hari Air Dunia 💧</a></li>
+          <li class="list-group-item"><a href="berita-4">🌐 Kesiapan Posko Arus Mudik Idul Fitri 2026</a></li>
+          <li class="list-group-item"><a href="berita-5">🌐 Rapat Pendahuluan Self-Assessment RBO-PB</a></li>
         </ul>
       </div>
     </div>

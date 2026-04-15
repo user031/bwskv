@@ -84,6 +84,8 @@
     transform: scale(1.1);
   }
 
+  
+
 </style>
 
 <body>
@@ -117,20 +119,20 @@
                     <a class="nav-link" href=""><b>Home</b></a>
               </li>   
               <li class="nav-item dropdown">
-                    <a class="nav-link" href="https://kalimandaubwskv.id/contact.php"><b>Contact</b></a>
+                    <a class="nav-link" href="https://kalimandaubwskv.id/contact"><b>Contact</b></a>
               </li>
               <li class="nav-item dropdown">
                     <a class="nav-link" href="https://kalimandaubwskv.id/"><b>Kalimandau</b></a>
               </li>
               <li class="nav-item dropdown">
-                    <a class="nav-link" href="https://kalimandaubwskv.id/faq.php"><b>FAQ</b></a>
+                    <a class="nav-link" href="https://kalimandaubwskv.id/faq"><b>FAQ</b></a>
               </li>
               <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="javascript:void(0)" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         <b>About</b>
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="tusi.php">Tugas dan Fungsi</a></li>
+                        <li><a class="dropdown-item" href="tusi">Tugas dan Fungsi</a></li>
                         <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#strukturModal">Struktur Organisasi</a></li>
                         <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#paktaIntegritas">Pakta Integritas</a></li>
                         <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#keuangan">Pagu Anggaran TA 2025</a></li>
@@ -173,15 +175,38 @@
 </div>
 
 <!-- Modal keuangan -->
-<div class="modal fade" id="keuangan" tabindex="-1" aria-labelledby="keuangan" aria-hidden="true">
+<div class="modal fade" id="keuangan" tabindex="-1" aria-labelledby="keuanganLabel" aria-hidden="true">
   <div class="modal-dialog modal-xl modal-dialog-centered">
     <div class="modal-content">
+
       <div class="modal-header">
         <h5 class="modal-title" id="keuanganLabel">Pagu Anggaran TA 2025</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
       </div>
-      <div class="modal-body text-center">
-        <img src="img/keuangan.png" alt="Keuangan" class="img-fluid rounded shadow">
+
+      <div class="modal-body d-flex flex-column align-items-center" style="gap:1.5rem; padding:1.5rem 1rem;">
+
+        <!-- DONUT -->
+        <div style="position:relative;width:260px;height:260px;">
+          <canvas id="donut"></canvas>
+
+          <div id="center-label" style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);text-align:center;pointer-events:none;">
+            <div id="c-title" style="font-size:11px;color:#aaa;">Total Pagu</div>
+            <div id="c-pct" style="font-size:16px;font-weight:500;color:#C94F8A;">Rp158,9 jt</div>
+            <div id="c-sub" style="font-size:10px;color:#bbb;">RPM</div>
+          </div>
+        </div>
+
+        <!-- LEGEND CARD -->
+        <div id="legend" style="display:grid;grid-template-columns:1fr 1fr;gap:10px;width:100%;max-width:480px;"></div>
+
+        <!-- DETAIL -->
+        <div id="detail-box" style="display:none;width:100%;max-width:480px;border-radius:14px;padding:14px 18px;color:white;">
+          <div id="detail-name" style="font-size:13px;font-weight:500;"></div>
+          <div id="detail-pct" style="font-size:28px;font-weight:500;"></div>
+          <div id="detail-rpm" style="font-size:12px;"></div>
+        </div>
+
       </div>
     </div>
   </div>
@@ -251,8 +276,8 @@
           <div class="card">
             <img src="uploads/img_1.jpg" class="card-img-top" alt="Berita 1">
             <div class="card-body">
-              <p class="card-text">Sidang Pleno Ke-2 TKPSDA WS Sesayap Tahun 2025.</p>
-              <a href="berita-1.php" class="btn btn-primary btn-sm">Baca</a>
+              <p class="card-text">Silaturahmi & Sapa Balai Kementerian Pekerjaan Umum.</p>
+              <a href="berita-1" class="btn btn-primary btn-sm">Baca</a>
             </div>
           </div>
         </div>
@@ -263,8 +288,9 @@
             <img src="uploads/img_2.jpg" class="card-img-top" alt="Berita 2">
             <div class="card-body">
 
-              <p class="card-text">Penandatanganan Kontrak Pekerjaan Pembangunan Pengaman Pantai Padaidi.</p>
-              <a href="berita-2.php" class="btn btn-primary btn-sm">Baca</a>
+              <p class="card-text">Keluarga Besar BWS Kalimantan V Tanjung Selor mengucapkan
+              Selamat Hari Raya Idulfitri 1447 H</p>
+              <a href="berita-2" class="btn btn-primary btn-sm">Baca</a>
             </div>
           </div>
         </div>
@@ -274,8 +300,8 @@
           <div class="card">
             <img src="uploads/img_3.jpg" class="card-img-top" alt="Berita 3">
             <div class="card-body">
-                <p class="card-text">Penandatanganan Kontrak Paket Tender/Seleksi Bidang Irigasi dan Rawa.</p>
-              <a href="berita-3.php" class="btn btn-primary btn-sm">Baca</a>
+                <p class="card-text">Selamat Hari Air Dunia 💧</p><br>
+              <a href="berita-3" class="btn btn-primary btn-sm">Baca</a>
             </div>
           </div>
         </div>
@@ -285,41 +311,20 @@
           <div class="card">
             <img src="uploads/img_4.jpg" class="card-img-top" alt="Berita 4">
             <div class="card-body">
-              <p class="card-text">Sidang Pleno Ke-I TKPSDA WS Berau - Kelai Tahun 2025.</p>
-              <a href="berita-4.php" class="btn btn-primary btn-sm">Baca</a>
+              <p class="card-text">Kesiapan Posko Arus Mudik Idul Fitri 2026</p><br>
+              <a href="berita-4" class="btn btn-primary btn-sm">Baca</a>
             </div>
           </div>
         </div>
+
 
         <!-- Slide 5 -->
         <div class="swiper-slide">
           <div class="card">
-            <img src="uploads/img_7.jpg" class="card-img-top" alt="Berita 3">
+            <img src="uploads/img_5.jpg" class="card-img-top" alt="Berita 3">
             <div class="card-body">
-              <p class="card-text">Pengembangan Kapasitas TPM untuk sukseskan P3-TGAI Tahun 2025</p>
-              <a href="berita-5.php" class="btn btn-primary btn-sm">Baca</a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Slide 6 -->
-        <div class="swiper-slide">
-          <div class="card">
-            <img src="uploads/img_6.jpeg" class="card-img-top" alt="Berita 3">
-            <div class="card-body">
-              <p class="card-text">Penandatanganan Kontrak Paket Tender/Seleksi Bidang Irigasi dan Rawa.</p>
-              <a href="berita-6.php" class="btn btn-primary btn-sm">Baca</a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Slide 7 -->
-        <div class="swiper-slide">
-          <div class="card">
-            <img src="uploads/img_5.jpeg" class="card-img-top" alt="Berita 3">
-            <div class="card-body">
-              <p class="card-text">Upacara Bendera Hari Ulang Tahun Ke-80 Republik Indonesia.</p>
-              <a href="berita-7.php" class="btn btn-primary btn-sm">Baca</a>
+              <p class="card-text">Rapat Pendahuluan Self-Assessment RBO-PB</p><br>
+              <a href="berita-5" class="btn btn-primary btn-sm">Baca</a>
             </div>
           </div>
         </div>
@@ -330,7 +335,7 @@
             <img src="uploads/img_8.png" class="card-img-top" alt="Berita 3">
             <div class="card-body">
               <p class="card-text">Jaringan Irigasi Air Tanah (JIAT) : Air adalah kehidupan.</p>
-              <a href="berita-8.php" class="btn btn-primary btn-sm">Baca</a>
+              <a href="berita-6" class="btn btn-primary btn-sm">Baca</a>
             </div>
           </div>
         </div>
@@ -354,20 +359,34 @@
       <div class="highlight-bar"></div>
 
       <!-- Item 1 -->
-      <div class="card mb-3 announcement-card">
-        <div class="row g-0">
-          <div class="col-auto">
-            <img src="uploads/pengumuman1.jpg" alt="img">
-          </div>
-          <div class="col">
-            <div class="card-body">
-              <h6 class="card-title fw-semibold">Open Recruitment OP Inpres Tahap II dan III TA 2025</h6>
-              <p class="card-text"><small class="text-muted">11 April 2023 | Dilihat 4207 kali</small></p>
+      <a href="https://www.instagram.com/p/DXIhHZjk066/?img_index=1" 
+        target="_blank" 
+        class="text-decoration-none text-dark">
+
+        <div class="card mb-3 announcement-card hover-card">
+          <div class="row g-0">
+            <div class="col-auto">
+              <img src="uploads/pengumuman1.jpg" alt="img" 
+                  style="width:120px; height:100%; object-fit:cover;">
+            </div>
+            <div class="col">
+              <div class="card-body">
+                <h6 class="card-title fw-semibold">
+                  Pengumuman Hasil Tes Tertulis Online TPM P3-TGAI TA 2026
+                </h6>
+                <p class="card-text">
+                  <small class="text-muted">15 April 2026</small>
+                </p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
 
+      </a>
+
+      <a href="https://www.instagram.com/p/DXDYwR4kz5F/?img_index=1" 
+        target="_blank" 
+        class="text-decoration-none text-dark">
       <!-- Item 2 -->
       <div class="card mb-3 announcement-card">
         <div class="row g-0">
@@ -376,14 +395,18 @@
           </div>
           <div class="col">
             <div class="card-body">
-              <h6 class="card-title fw-semibold">Penjaringan Calon Anggota TKPSDA WS Berau-Kelai Periode 2026-2031</h6>
-              <p class="card-text"><small class="text-muted">11 April 2023 | Dilihat 533 kali</small></p>
+              <h6 class="card-title fw-semibold">PENGUMUMAN HASIL SELEKSI ADMINISTRASI Tenaga Pendamping Masyarakat (TPM) BWS Kalimantan V Tanjung Selor</h6>
+              <p class="card-text"><small class="text-muted">13 April 2026</small></p>
             </div>
           </div>
         </div>
       </div>
+       </a>
 
       <!-- Item 3 -->
+        <a href="https://www.instagram.com/p/DW2nyx0mhxd/" 
+        target="_blank" 
+        class="text-decoration-none text-dark">
       <div class="card mb-3 announcement-card">
         <div class="row g-0">
           <div class="col-auto">
@@ -391,16 +414,14 @@
           </div>
           <div class="col">
             <div class="card-body">
-              <h6 class="card-title fw-semibold">Penjaringan Calon Anggota TKPSDA WS Sesayap Periode 2026-2031</h6>
-              <p class="card-text"><small class="text-muted">04 April 2023 | Dilihat 722 kali</small></p>
+              <h6 class="card-title fw-semibold">Survey Kepuasan Masyarakat 2026</h6>
+              <p class="card-text"><small class="text-muted">08 April 2026</small></p>
             </div>
           </div>
         </div>
       </div>
+      </a>
 
-      <div class="text-center mt-3">
-        <button class="btn btn-warning px-4">SELENGKAPNYA</button>
-      </div>
     </div>
 
     <!-- AGENDA -->
@@ -446,7 +467,7 @@
           </div>
           <h5 class="fw-bold">Hidrologi Sesayap</h5>
           <p class="text-muted">Akses data curah hujan real-time dari pos pengamatan di wilayah sungai.</p>
-          <a href="https://kalimandaubwskv.id/maps/sesayap/hidrologi-sesayap.php" class="btn btn-primary rounded-pill px-4">Lihat</a>
+          <a href="https://kalimandaubwskv.id/sih3/" class="btn btn-primary rounded-pill px-4">Lihat</a>
         </div>
       </div>
 
@@ -457,7 +478,7 @@
           </div>
           <h5 class="fw-bold">Hidroklimatologi Sesayap</h5>
           <p class="text-muted">Pantau tinggi muka air sungai secara real-time dari jaringan telemetri.</p>
-          <a href="https://kalimandaubwskv.id/maps/sesayap/klimatologi-sesayap.php" class="btn btn-primary rounded-pill px-4">Lihat</a>
+          <a href="https://kalimandaubwskv.id/sih3/" class="btn btn-primary rounded-pill px-4">Lihat</a>
         </div>
       </div>
 
@@ -468,7 +489,7 @@
           </div>
           <h5 class="fw-bold">Hidrogeologi Sesayap</h5>
           <p class="text-muted">Lihat peta interaktif wilayah sungai Sesayap dan Berau-Kelai.</p>
-          <a href="https://kalimandaubwskv.id/maps/sesayap/cat-sesayap.php" class="btn btn-primary rounded-pill px-4">Lihat</a>
+          <a href="https://kalimandaubwskv.id/sih3/" class="btn btn-primary rounded-pill px-4">Lihat</a>
         </div>
       </div>
 
@@ -480,7 +501,7 @@
           </div>
           <h5 class="fw-bold">Hidrologi Berau-Kelai</h5>
           <p class="text-muted">Analisis pola hujan dan aliran air untuk mendukung perencanaan.</p>
-          <a href="https://kalimandaubwskv.id/maps/berau-kelai/das-berau-kelai.php" class="btn btn-primary rounded-pill px-4">Lihat</a>
+          <a href="https://kalimandaubwskv.id/sih3/" class="btn btn-primary rounded-pill px-4">Lihat</a>
         </div>
       </div>
 
@@ -491,7 +512,7 @@
           </div>
           <h5 class="fw-bold">Hidroklimatologi Berau-Kelai</h5>
           <p class="text-muted">Kelola data hidrologi, hidroklimatologi, dan hidrogeologi secara terpusat.</p>
-          <a href="https://kalimandaubwskv.id/maps/berau-kelai/klimatologi-berau-kelai.php" class="btn btn-primary rounded-pill px-4">Lihat</a>
+          <a href="https://kalimandaubwskv.id/sih3/" class="btn btn-primary rounded-pill px-4">Lihat</a>
         </div>
       </div>
 
@@ -502,7 +523,7 @@
           </div>
           <h5 class="fw-bold">Hidrogeologi Berau-Kelai</h5>
           <p class="text-muted">Sistem keamanan untuk memastikan data tetap terjaga.</p>
-          <a href="https://kalimandaubwskv.id/maps/berau-kelai/cat-berau-kelai.php" class="btn btn-primary rounded-pill px-4">Lihat</a>
+          <a href="https://kalimandaubwskv.id/sih3/" class="btn btn-primary rounded-pill px-4">Lihat</a>
         </div>
       </div>
 
@@ -702,60 +723,7 @@
 </section>
 <!-- bagian section FAQ -->
 
-<footer class="bg-dark text-light pt-5 pb-3">
-  <div class="container text-center"> <!-- Tambahkan text-center di sini -->
-    <div class="row justify-content-center">
 
-      <!-- Kolom 1: Logo dan Deskripsi -->
-      <div class="col-md-3 mb-3">
-        <img src="img/default-pu.png" alt="Logo" style="max-width: 120px; height: auto; border-radius:20px;" class="mb-3 mx-auto d-block">
-        <p style="font-size: 14px;">
-          KALIMANDAU (Kalimantan Lima Andal Dalam Pelayanan Terpadu) adalah pusat layanan terpadu yang menekankan prinsip keterbukaan, efisiensi, dan akuntabilitas dalam menyediakan informasi kepada masyarakat.
-        </p>
-      </div>
-
-      <!-- Kolom 2: Web Links -->
-      <div class="col-md-2 mb-3">
-        <h6 class="fw-bold">Links</h6>
-        <ul class="list-unstyled">
-          <li><a href="#" class="text-decoration-none text-light">Home</a></li>
-          <li><a href="#" class="text-decoration-none text-light">About</a></li>
-          <li><a href="#" class="text-decoration-none text-light">Services</a></li>
-          <li><a href="#" class="text-decoration-none text-light">Contact</a></li>
-        </ul>
-      </div>
-
-      <!-- Kolom 3: Newsletter -->
-      <div class="col-md-4 mb-3">
-        <p class="mb-1 fw-bold">Follow us</p>
-        <div class="sosial-vertikal">
-          <a href="#" class="text-light"><i class="fab fa-facebook-f"></i></a>
-          <a href="#" class="text-light"><i class="fab fa-youtube"></i></a>
-          <a href="#" class="text-light"><i class="fab fa-instagram"></i></a>
-        </div>
-      </div>
-
-<!-- Kolom 4: Peta -->
-<div class="col-md-3 mb-3">
-  <h6 class="fw-bold">Our location</h6>
-  <iframe
-    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d997.1582841231841!2d117.60532026950404!3d3.2991443956640444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32146b754e80ce0d%3A0xa063b73d28925f65!2sJl.%20Bhayangkara%20No.59D%2C%20Karang%20Anyar%2C%20Kec.%20Tarakan%20Bar.%2C%20Kota%20Tarakan%2C%20Kalimantan%20Utara!5e0!3m2!1sen!2sid!4v1719732265405!5m2!1sen!2sid"
-    width="100%"
-    height="150"
-    style="border:0; border-radius:10px;"
-    allowfullscreen=""
-    loading="lazy"
-    referrerpolicy="no-referrer-when-downgrade">
-  </iframe>
-</div>
-         <!-- Copyright -->
-    <div class="mt-4 pt-3 border-top">
-      <p class="mb-0">© 2025 BWSKALV</p>
-    </div>
-
-    </div>
-  </div>
-</footer>
 
 
 <!-- Scripts -->
@@ -831,6 +799,126 @@
     const myModal = new bootstrap.Modal(document.getElementById('imageModal'));
     myModal.show();
   });
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+
+<script>
+const items = [
+  { label: 'SNVT Pelaksanaan Jaringan\nPemanfaatan Air Kaltara', short: 'SNVT Pemanfaatan Air', pct: 38.4, rpm: 61033102, color: '#E8529A' },
+  { label: 'SNVT Pelaksanaan Jaringan\nSumber Air Kaltara', short: 'SNVT Jaringan Sumber Air', pct: 27.9, rpm: 44276129, color: '#C94F8A' },
+  { label: 'Satker Operasi dan\nPemeliharaan SDA Kal V', short: 'OP SDA Kalimantan V', pct: 19.7, rpm: 31270637, color: '#F97B4A' },
+  { label: 'Satker Balai Wilayah\nSungai Kalimantan V', short: 'BWS Kalimantan V', pct: 14.1, rpm: 22357790, color: '#8E44AD' },
+];
+
+const c_title = document.getElementById('c-title');
+const c_pct = document.getElementById('c-pct');
+const c_sub = document.getElementById('c-sub');
+
+const detail_name = document.getElementById('detail-name');
+const detail_pct = document.getElementById('detail-pct');
+const detail_rpm = document.getElementById('detail-rpm');
+
+const legend = document.getElementById('legend');
+
+// generate legend cards
+items.forEach((item, i) => {
+  const card = document.createElement('div');
+  card.style.cssText = `border-radius:12px;padding:12px;cursor:pointer;background:${item.color};color:white;`;
+  card.innerHTML = `<b>${item.pct}%</b><br><small>${item.label.replace(/\n/g,"<br>")}</small>`;
+  card.onclick = () => toggleDetail(i);
+  legend.appendChild(card);
+});
+
+const ctx = document.getElementById('donut');
+
+const chart = new Chart(ctx, {
+  type: 'doughnut',
+  data: {
+    labels: items.map(i => i.short),
+    datasets: [{
+      data: items.map(i => i.rpm),
+      backgroundColor: items.map(i => i.color),
+      borderColor: 'white',
+      borderWidth: 3,
+      hoverOffset: 12
+    }]
+  },
+options: {
+  cutout: '62%',
+  plugins: { 
+    legend: { display:false }, 
+    tooltip:{ enabled:false } 
+    
+  },
+
+onHover: (event, elements) => {
+  if (elements.length > 0) {
+    const i = elements[0].index;
+    showHover(i);
+
+    // 🔥 Highlight slice + redupkan lainnya
+    chart.data.datasets[0].backgroundColor = items.map((d, idx) => {
+      return idx === i ? d.color : d.color + '55'; // transparan
+    });
+
+  } else {
+    chart.data.datasets[0].backgroundColor = items.map(d => d.color);
+    resetCenter();
+  }
+
+  chart.update('none'); // 🔥 penting: no animation biar smooth
+},
+
+  onClick: (event, elements) => {
+    if (elements.length) toggleDetail(elements[0].index);
+  }
+}
+});
+
+let active = null;
+
+function showHover(i){
+  const d = items[i];
+
+  c_title.textContent = d.short;
+  c_title.style.color = d.color;
+
+  c_pct.textContent = d.pct + '%';
+  c_pct.style.color = d.color;
+  c_pct.style.fontSize = '26px';
+
+  c_sub.textContent = 'Rp ' + d.rpm.toLocaleString('id-ID');
+  c_sub.style.color = '#666';
+}
+
+function resetCenter(){
+  if(active !== null) return;
+  c_title.textContent = 'Total Pagu';
+  c_title.style.color = '#aaa';
+  c_pct.textContent = 'Rp158,9 jt';
+  c_pct.style.color = '#C94F8A';
+  c_pct.style.fontSize = '16px';
+  c_sub.textContent = 'RPM';
+}
+
+function toggleDetail(i){
+  const box = document.getElementById('detail-box');
+
+  if(active === i){
+    active = null;
+    box.style.display='none';
+    resetCenter();
+  } else {
+    active = i;
+    const d = items[i];
+    box.style.display='block';
+    box.style.background=d.color;
+    detail_name.textContent = d.label.replace('\n',' ');
+    detail_pct.textContent = d.pct+'%';
+    detail_rpm.textContent = 'RPM: Rp '+d.rpm.toLocaleString('id-ID');
+  }
+}
 </script>
 
 </body>

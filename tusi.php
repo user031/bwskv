@@ -204,10 +204,10 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ms-auto gap-3">
-        <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>        
+        <li class="nav-item"><a class="nav-link" href="index">Home</a></li>        
         <!-- About Dropdown -->
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="https://kalimandaubwskv.id/about.php" id="aboutDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link dropdown-toggle" href="https://kalimandaubwskv.id/about" id="aboutDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             About
           </a>
           <ul class="dropdown-menu" aria-labelledby="aboutDropdown">

@@ -7,7 +7,6 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet"/>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
-
     <!-- Favicon -->
   <link rel="icon" type="image/png" href="img/default-pu.png">
   <style>
@@ -43,7 +42,7 @@
       border-radius: 15px;
       box-shadow: 0 4px 12px rgba(0,0,0,0.08);
       padding: 20px;  
-      margin-top: 130px; /* ✅ tambahkan margin-top agar turun sejajar dengan img */
+      margin-top: 180px; /* ✅ tambahkan margin-top agar turun sejajar dengan img */
     }
     .sidebar-card h5 {
       font-weight: 700;
@@ -90,7 +89,7 @@
 <!-- Navbar -->
 <nav class="navbar navbar-expand-lg bg-white shadow-sm fixed-top">
   <div class="container-fluid px-5">
-    <a class="navbar-brand fw-bold" href="/balai/bwskalimantan5/">
+    <a class="navbar-brand fw-bold" href="https://kalimandaubwskv.id/">
       <img src="img/bwskv.png" alt="Logo" height="40" class="rounded me-2">
       BWS Kalimantan V
     </a>
@@ -99,7 +98,7 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ms-auto gap-3">
-        <li class="nav-item"><a class="nav-link" href="/balai/bwskalimantan5/">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="bwskalimantan5/">Home</a></li>
         <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
         <li class="nav-item"><a class="nav-link" href="#">Help</a></li>
         <li class="nav-item"><a class="nav-link" href="#">About</a></li>
@@ -114,41 +113,44 @@
   <div class="row gx-5">
     <!-- Kolom Utama -->
     <div class="col-lg-8">
-      <h1 class="news-title mb-3">Penandatanganan Kontrak Pekerjaan Pembangunan Pengaman Pantai Padaidi (Lanjutan)</h1>
-      <p class="news-meta mb-4"><i class="bi bi-calendar-event"></i> 25 Agustus 2025 | <i class="bi bi-person-circle"></i> Admin BWSKALV</p>
+      <h1 class="news-title mb-3">JIAT: Inovasi Irigasi Air Tanah untuk Ketahanan Pangan di Kalimantan Utara</h1>
+      <p class="news-meta mb-4"><i class="bi bi-calendar-event"></i> 26 September 2025 | <i class="bi bi-person-circle"></i> Admin BWSKALV</p>
       
       <div class="news-content">
-        <img src="uploads/img_6.jpeg" alt="Berita 1">
-          <p>
-            Balai Wilayah Sungai Kalimantan V Tanjung Selor melaksanakan kegiatan Gerakan Irigasi Bersih di Daerah Irigasi (D.I) Tanjung Aru Kab. Sebatik Kalimantan Utara dilanjutkan dengan diskusi bersama dengan tema "Irigasi sebagai Penopang Swasembada Pangan", berkolaborasi dengan Dinas Pertanian, Dinas PUPR Kab Nunukan, DPRD Kab Nunukan dan Pihak Akademis Politeknik Kab Nunukan, serta P3A dan Gabungan Kelompok Tanitani D.I. Tanjung Aru.
+        <img src="uploads/img_8.png" alt="Berita 1">
+        <p>
+Desa Apung, Kabupaten Bulungan – 24 September 2025
+Balai Wilayah Sungai Kalimantan V Tanjung Selor terus berkomitmen dalam mendukung pembangunan berkelanjutan di sektor sumber daya air, salah satunya melalui pelaksanaan kegiatan pembangunan Jaringan Irigasi Air Tanah (JIAT) di Desa Apung, Provinsi Kalimantan Utara. Program ini hadir sebagai solusi atas tantangan ketersediaan air irigasi yang selama ini menjadi kendala utama dalam pengembangan sektor pertanian di wilayah tersebut.
+JIAT merupakan sistem irigasi yang memanfaatkan air tanah dari sumur bor atau sumur gali, yang kemudian disalurkan ke lahan pertanian melalui jaringan pipa. Teknologi ini memungkinkan distribusi air yang lebih efisien dan merata, terutama di daerah yang tidak terjangkau oleh sistem irigasi permukaan. Dengan pendekatan ini, petani dapat mengakses air irigasi secara berkelanjutan, tanpa bergantung pada musim hujan.
+Kegiatan pembangunan JIAT di Provinsi Kalimantan Utara tidak hanya berfokus pada aspek teknis, tetapi juga mengedepankan kebermanfaatan langsung bagi masyarakat. Beberapa dampak positif yang telah dirasakan antara lain:
 
-            Kegiatan ini merupakan bagian dari rangkaian peringatan HUT ke-80 Republik Indonesia, sekaligus aksi nyata sebagai upaya menjaga kelancaran aliran air irigasi demi keberlangsungan produksi pangan.
+Ketersediaan air irigasi sepanjang tahun, yang mendukung pola tanam berkelanjutan.
+Peningkatan produktivitas dan kualitas hasil pertanian, melalui pasokan air yang stabil dan tepat waktu.
+Pengurangan risiko gagal panen, yang selama ini menjadi ancaman utama di daerah dengan curah hujan tidak menentu.
+Penguatan ketahanan pangan lokal, sebagai bagian dari kontribusi terhadap swasembada pangan nasional.
 
-            BWS Kalimantan V memegang peran strategis dalam mendukung Asta Cita Presiden RI Bapak Prabowo Subianto, khususnya swasembada pangan. Dengan pemeliharaan dan rehabilitasi jaringan irigasi, ketersediaan air untuk lahan pertanian dapat terjamin sehingga produktivitas pangan tetap terjaga.
-
-            Menurut gabungan kelompok tani setempat, rehabilitasi jaringan irigasi oleh BWS Kalimantan V telah membantu mengurangi genangan dan banjir yang sebelumnya kerap merendam lahan persawahan mereka, sehingga aktivitas bercocok tanam menjadi lebih lancar dan hasil panen lebih optimal.
-
-            Melalui kegiatan ini, diharapkan terjalin sinergi antara pemerintah, masyarakat, dan seluruh pemangku kepentingan dalam menjaga jaringan irigasi dan kelestarian lingkungan.
-          </p>
+Selain manfaat teknis, pembangunan JIAT juga memperkuat peran institusi publik dalam menghadirkan layanan yang berdampak langsung bagi masyarakat. Kegiatan ini menjadi bukti bahwa sinergi antara teknologi, kebijakan, dan kebutuhan lokal dapat menghasilkan solusi yang relevan dan berkelanjutan. Pendekatan ini juga mendorong partisipasi aktif masyarakat dalam menjaga dan memanfaatkan sumber daya air secara bijak.
+Balai Wilayah Sungai Kalimantan V Tanjung Selor berharap bahwa program JIAT dapat menjadi model percontohan bagi wilayah lain yang menghadapi tantangan serupa. Ke depan, penguatan kapasitas petani, pemanfaatan teknologi tepat guna, dan pengelolaan sumber daya air yang inklusif akan terus menjadi prioritas dalam mewujudkan pelayanan terpadu yang responsif terhadap kebutuhan masyarakat.
+Air merupakan sumber kehidupan, dan jaringan irigasi air tanah menjadi penghubung penting dalam mewujudkan kesejahteraan petani di daerah-daerah yang membutuhkan dukungan irigasi berkelanjutan.
+        </p>
       </div>
 
       <div class="mt-4">
-        <a href="index.php" class="btn btn-outline-primary"><i class="bi bi-arrow-left"></i> Kembali ke Berita</a>
+        <a href="index" class="btn btn-outline-primary"><i class="bi bi-arrow-left"></i> Kembali ke Berita</a>
       </div>
     </div>
 
-    <!-- Sidebar -->
     <!-- Sidebar -->
     <div class="col-lg-4">
       <div class="sidebar-card">
         <h5>Berita Lainnya</h5>
         <ul class="list-group list-group-flush">
-          <li class="list-group-item"><a href="berita-1.php">🌐 Sidang Pleno Ke-2 TKPSDA WS Sesayap Tahun 2025</a></li>
-          <li class="list-group-item"><a href="berita-2.php">🌐 Penandatanganan Kontrak Pekerjaan Pembangunan Pengaman Pantai Padaidi (Lanjutan)</a></li>
-          <li class="list-group-item"><a href="berita-3.php">🌐 Penandatanganan Kontrak Paket Tender/Seleksi Bidang Irigasi dan Rawa</a></li>
-          <li class="list-group-item"><a href="berita-4.php">🌐 Sidang Pleno Ke-I TKPSDA WS Berau - Kelai Tahun 2025</a></li>
-          <li class="list-group-item"><a href="berita-5.php">🌐 Pengembangan Kapasitas TPM untuk sukseskan P3-TGAI Tahun 2025</a></li>
-        </ul>
+          <li class="list-group-item"><a href="berita-1">🌐 Silaturahmi & Sapa Balai Kementerian Pekerjaan Umum</a></li>
+          <li class="list-group-item"><a href="berita-2">🌐 Selamat Hari Raya Idulfitri 1447 H</a></li>
+          <li class="list-group-item"><a href="berita-3">🌐 Selamat Hari Air Dunia 💧</a></li>
+          <li class="list-group-item"><a href="berita-4">🌐 Kesiapan Posko Arus Mudik Idul Fitri 2026</a></li>
+          <li class="list-group-item"><a href="berita-5">🌐 Rapat Pendahuluan Self-Assessment RBO-PB</a></li>
+        </ul> 
       </div>
     </div>
   </div>

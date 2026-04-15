@@ -114,37 +114,24 @@
   <div class="row gx-5">
     <!-- Kolom Utama -->
     <div class="col-lg-8">
-      <h1 class="news-title mb-3">Sidang Pleno Ke-I TKPSDA WS Berau - Kelai Tahun 2025.</h1>
-      <p class="news-meta mb-4"><i class="bi bi-calendar-event"></i> 25 Agustus 2025 | <i class="bi bi-person-circle"></i> Admin BWSKALV</p>
+      <h1 class="news-title mb-3">Kesiapan Posko Arus Mudik Idul Fitri 2026</h1>
+      <p class="news-meta mb-4"><i class="bi bi-calendar-event"></i> 19 Maret 2026 | <i class="bi bi-person-circle"></i> Humas BWSKALV</p>
       
       <div class="news-content">
         <img src="uploads/img_4.jpg" alt="Berita 1">
           <p>
-            Dalam rangka melaksanakan amanat Peraturan Menteri Pekerjaan Umum Republik Indonesia Nomor 2 Tahun 2024 serta mendukung fungsi TKPSDA WS Berau–Kelai, telah diselenggarakan Sidang Pleno Ke-I TKPSDA WS Berau - Kelai Tahun 2025.
+Dalam rangka memastikan kesiapsiagaan arus mudik Hari Raya Idulfitri 1447 H, telah dilaksanakan rapat koordinasi secara daring yang dipantau langsung oleh Plh Direktur Jenderal Sumber Daya Air
 
-          Sidang yang digelar secara hybrid (daring dan luring) ini dibuka langsung oleh Ketua TKPSDA WS Berau – Kelai, Yusliando, Kepala Balai Wilayah Sungai Kalimantan V Tanjung Selor, Bpk.
-          Mustafa dan dihadiri oleh para anggota TKPSDA WS Berau – Kelai yang berasal dari unsur pemerintah dan non pemerintah
-          </p>
-          <p>
-            Sidang Pleno Ke-I ini bertujuan untuk membahas mengenai Monitoring dan Evaluasi Matriks PSIH3 (Pengololaan Sistem Informasi Hidrologi,Hidrometeorologi,Hidrogeologi) yang merupakan bagian dari upaya penguatan tata kelola sumber daya air secara terpadu dan berkelanjutan pada wilayah sungai Berau–Kelai.
+Kegiatan ini merupakan bentuk komitmen Balai Wilayah Sungai Kalimantan V Tanjung Selor dalam mendukung kelancaran, keamanan, dan kenyamanan masyarakat selama periode mudik
 
-            Pembahasan mencakup beberapa aspek penting, antara lain:
-            - Capaian pelaksanaan kegiatan pengelolaan sumber daya air di wilayah sungai Berau–Kelai selama periode sebelumnya dan yang sedang berjalan;<br>
-            - Evaluasi efektivitas pelaksanaan program berdasarkan indikator yang telah ditetapkan dalam Matriks PSIH3;<br>
-            - Identifikasi kendala dan tantangan di lapangan yang dihadapi oleh para pelaku pengelolaan sumber daya air, baik dari unsur pemerintah, masyarakat, maupun dunia usaha;
-          </p>
-Sidang ini juga menjadi forum strategis untuk menyampaikan aspirasi dan masukan dari para pemangku kepentingan, serta memastikan bahwa proses pengambilan keputusan dalam
-pengelolaan sumber daya air melibatkan prinsip partisipatif, transparan, dan akuntabel.
-
-Harapan bersama:
-Kolaborasi antarlembaga dalam penyelarasan data, pembangunan infrastruktur pemantauan, serta peningkatan kualitas dan keterbukaan informasi hidrologi demi pengelolaan DAS Berau-Kelai yang berkelanjutan dan adaptif terhadap risiko bencana.
-
+Mari bersama wujudkan mudik yang aman dan lancar 🙌
+</p>
 #SigapMembangunNegeriUntukRakyat
 </p>
       </div>
 
       <div class="mt-4">
-        <a href="index.php" class="btn btn-outline-primary"><i class="bi bi-arrow-left"></i> Kembali ke Berita</a>
+        <a href="index" class="btn btn-outline-primary"><i class="bi bi-arrow-left"></i> Kembali ke Berita</a>
       </div>
     </div>
 
@@ -154,11 +141,11 @@ Kolaborasi antarlembaga dalam penyelarasan data, pembangunan infrastruktur peman
       <div class="sidebar-card">
         <h5>Berita Lainnya</h5>
         <ul class="list-group list-group-flush">
-          <li class="list-group-item"><a href="berita-1.php">🌐 Sidang Pleno Ke-2 TKPSDA WS Sesayap Tahun 2025</a></li>
-          <li class="list-group-item"><a href="berita-2.php">🌐 Penandatanganan Kontrak Pekerjaan Pembangunan Pengaman Pantai Padaidi (Lanjutan)</a></li>
-          <li class="list-group-item"><a href="berita-3.php">🌐 Penandatanganan Kontrak Paket Tender/Seleksi Bidang Irigasi dan Rawa</a></li>
-          <li class="list-group-item"><a href="berita-4.php">🌐 Sidang Pleno Ke-I TKPSDA WS Berau - Kelai Tahun 2025</a></li>
-          <li class="list-group-item"><a href="berita-5.php">🌐 Pengembangan Kapasitas TPM untuk sukseskan P3-TGAI Tahun 2025</a></li>
+          <li class="list-group-item"><a href="berita-1">🌐 Silaturahmi & Sapa Balai Kementerian Pekerjaan Umum</a></li>
+          <li class="list-group-item"><a href="berita-2">🌐 Selamat Hari Raya Idulfitri 1447 H</a></li>
+          <li class="list-group-item"><a href="berita-3">🌐 Selamat Hari Air Dunia 💧</a></li>
+          <li class="list-group-item"><a href="berita-4">🌐 Kesiapan Posko Arus Mudik Idul Fitri 2026</a></li>
+          <li class="list-group-item"><a href="berita-5">🌐 Rapat Pendahuluan Self-Assessment RBO-PB</a></li>
         </ul>
       </div>
     </div>
