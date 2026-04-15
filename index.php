@@ -135,7 +135,7 @@
                         <li><a class="dropdown-item" href="tusi">Tugas dan Fungsi</a></li>
                         <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#strukturModal">Struktur Organisasi</a></li>
                         <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#paktaIntegritas">Pakta Integritas</a></li>
-                        <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#keuangan">Pagu Anggaran TA 2025</a></li>
+                        <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#keuangan">Pagu Anggaran TA 2026</a></li>
                     </ul>
                 </li>  
             </ul>
