@@ -180,7 +180,7 @@
     <div class="modal-content">
 
       <div class="modal-header">
-        <h5 class="modal-title" id="keuanganLabel">Pagu Anggaran TA 2025</h5>
+        <h5 class="modal-title" id="keuanganLabel">Pagu Anggaran TA 2026</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
       </div>
 
