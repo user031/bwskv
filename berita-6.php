@@ -136,7 +136,7 @@ Air merupakan sumber kehidupan, dan jaringan irigasi air tanah menjadi penghubun
       </div>
 
       <div class="mt-4">
-        <a href="index" class="btn btn-outline-primary"><i class="bi bi-arrow-left"></i> Kembali ke Berita</a>
+        <a href="https://sda.pu.go.id/balai/bwskalimantan5/" class="btn btn-outline-primary"><i class="bi bi-arrow-left"></i> Kembali ke Berita</a>
       </div>
     </div>
 
@@ -145,12 +145,12 @@ Air merupakan sumber kehidupan, dan jaringan irigasi air tanah menjadi penghubun
       <div class="sidebar-card">
         <h5>Berita Lainnya</h5>
         <ul class="list-group list-group-flush">
-          <li class="list-group-item"><a href="berita-1">🌐 Silaturahmi & Sapa Balai Kementerian Pekerjaan Umum</a></li>
-          <li class="list-group-item"><a href="berita-2">🌐 Selamat Hari Raya Idulfitri 1447 H</a></li>
-          <li class="list-group-item"><a href="berita-3">🌐 Selamat Hari Air Dunia 💧</a></li>
-          <li class="list-group-item"><a href="berita-4">🌐 Kesiapan Posko Arus Mudik Idul Fitri 2026</a></li>
-          <li class="list-group-item"><a href="berita-5">🌐 Rapat Pendahuluan Self-Assessment RBO-PB</a></li>
-        </ul> 
+          <li class="list-group-item"><a href="berita-1.php">🌐 Silaturahmi & Sapa Balai Kementerian Pekerjaan Umum</a></li>
+          <li class="list-group-item"><a href="berita-2.php">🌐 Selamat Hari Raya Idulfitri 1447 H</a></li>
+          <li class="list-group-item"><a href="berita-3.php">🌐 Penandatanganan Kontrak Paket Tender/Seleksi Bidang Irigasi dan Rawa</a></li>
+          <li class="list-group-item"><a href="berita-4.php">🌐 Sidang Pleno Ke-I TKPSDA WS Berau - Kelai Tahun 2025</a></li>
+          <li class="list-group-item"><a href="berita-5.php">🌐 Pengembangan Kapasitas TPM untuk sukseskan P3-TGAI Tahun 2025</a></li>
+        </ul>
       </div>
     </div>
   </div>
@@ -172,7 +172,7 @@ Air merupakan sumber kehidupan, dan jaringan irigasi air tanah menjadi penghubun
       <div class="col-md-2 mb-3">
         <h6 class="fw-bold">Links</h6>
         <ul class="list-unstyled">
-          <li><a href="#" class="text-decoration-none text-light">Home</a></li>
+          <li><a href="https://sda.pu.go.id/balai/bwskalimantan5/" class="text-decoration-none text-light">Home</a></li>
           <li><a href="#" class="text-decoration-none text-light">About</a></li>
           <li><a href="#" class="text-decoration-none text-light">Services</a></li>
           <li><a href="#" class="text-decoration-none text-light">Contact</a></li>

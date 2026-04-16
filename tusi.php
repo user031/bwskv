@@ -204,17 +204,12 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ms-auto gap-3">
-        <li class="nav-item"><a class="nav-link" href="index">Home</a></li>        
+        <li class="nav-item"><a class="nav-link" href="https://sda.pu.go.id/balai/bwskalimantan5/">Home</a></li>        
         <!-- About Dropdown -->
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="https://kalimandaubwskv.id/about" id="aboutDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link" href="https://kalimandaubwskv.id/about" id="aboutDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             About
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="aboutDropdown">
-            <!-- Struktur Organisasi buka modal -->
-            <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#strukturModal">Struktur Organisasi</a></li>
-            <li><a class="dropdown-item" href="/balai/bwskalimantan5/tusi">Tugas dan Fungsi</a></li>
-          </ul>
+          </a>  
         </li>
 
         <li class="nav-item"><a class="nav-link" href="https://kalimandaubwskv.id/contact.php">Contact</a></li>

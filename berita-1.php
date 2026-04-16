@@ -137,11 +137,11 @@ Melalui momen ini, diharapkan koordinasi, semangat pelayanan, dan komitmen jajar
       <div class="sidebar-card">
         <h5>Berita Lainnya</h5>
         <ul class="list-group list-group-flush">
-          <li class="list-group-item"><a href="berita-1">🌐 Silaturahmi & Sapa Balai Kementerian Pekerjaan Umum</a></li>
-          <li class="list-group-item"><a href="berita-2">🌐 Selamat Hari Raya Idulfitri 1447 H</a></li>
-          <li class="list-group-item"><a href="berita-3">🌐 Penandatanganan Kontrak Paket Tender/Seleksi Bidang Irigasi dan Rawa</a></li>
-          <li class="list-group-item"><a href="berita-4">🌐 Sidang Pleno Ke-I TKPSDA WS Berau - Kelai Tahun 2025</a></li>
-          <li class="list-group-item"><a href="berita-5">🌐 Pengembangan Kapasitas TPM untuk sukseskan P3-TGAI Tahun 2025</a></li>
+          <li class="list-group-item"><a href="berita-1.php">🌐 Silaturahmi & Sapa Balai Kementerian Pekerjaan Umum</a></li>
+          <li class="list-group-item"><a href="berita-2.php">🌐 Selamat Hari Raya Idulfitri 1447 H</a></li>
+          <li class="list-group-item"><a href="berita-3.php">🌐 Penandatanganan Kontrak Paket Tender/Seleksi Bidang Irigasi dan Rawa</a></li>
+          <li class="list-group-item"><a href="berita-4.php">🌐 Sidang Pleno Ke-I TKPSDA WS Berau - Kelai Tahun 2025</a></li>
+          <li class="list-group-item"><a href="berita-5.php">🌐 Pengembangan Kapasitas TPM untuk sukseskan P3-TGAI Tahun 2025</a></li>
         </ul>
       </div>
     </div>
@@ -164,7 +164,7 @@ Melalui momen ini, diharapkan koordinasi, semangat pelayanan, dan komitmen jajar
       <div class="col-md-2 mb-3">
         <h6 class="fw-bold">Links</h6>
         <ul class="list-unstyled">
-          <li><a href="#" class="text-decoration-none text-light">Home</a></li>
+          <li><a href="https://sda.pu.go.id/balai/bwskalimantan5/" class="text-decoration-none text-light">Home</a></li>
           <li><a href="#" class="text-decoration-none text-light">About</a></li>
           <li><a href="#" class="text-decoration-none text-light">Services</a></li>
           <li><a href="#" class="text-decoration-none text-light">Contact</a></li>

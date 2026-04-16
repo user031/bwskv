@@ -99,7 +99,7 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ms-auto gap-3">
-        <li class="nav-item"><a class="nav-link" href="/balai/bwskalimantan5/">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://sda.pu.go.id/balai/bwskalimantan5/">Home</a></li>
         <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
         <li class="nav-item"><a class="nav-link" href="#">Help</a></li>
         <li class="nav-item"><a class="nav-link" href="#">About</a></li>
@@ -131,7 +131,7 @@ Mari bersama wujudkan mudik yang aman dan lancar 🙌
       </div>
 
       <div class="mt-4">
-        <a href="index" class="btn btn-outline-primary"><i class="bi bi-arrow-left"></i> Kembali ke Berita</a>
+        <a href="https://sda.pu.go.id/balai/bwskalimantan5/" class="btn btn-outline-primary"><i class="bi bi-arrow-left"></i> Kembali ke Berita</a>
       </div>
     </div>
 
@@ -141,11 +141,11 @@ Mari bersama wujudkan mudik yang aman dan lancar 🙌
       <div class="sidebar-card">
         <h5>Berita Lainnya</h5>
         <ul class="list-group list-group-flush">
-          <li class="list-group-item"><a href="berita-1">🌐 Silaturahmi & Sapa Balai Kementerian Pekerjaan Umum</a></li>
-          <li class="list-group-item"><a href="berita-2">🌐 Selamat Hari Raya Idulfitri 1447 H</a></li>
-          <li class="list-group-item"><a href="berita-3">🌐 Selamat Hari Air Dunia 💧</a></li>
-          <li class="list-group-item"><a href="berita-4">🌐 Kesiapan Posko Arus Mudik Idul Fitri 2026</a></li>
-          <li class="list-group-item"><a href="berita-5">🌐 Rapat Pendahuluan Self-Assessment RBO-PB</a></li>
+          <li class="list-group-item"><a href="berita-1.php">🌐 Silaturahmi & Sapa Balai Kementerian Pekerjaan Umum</a></li>
+          <li class="list-group-item"><a href="berita-2.php">🌐 Selamat Hari Raya Idulfitri 1447 H</a></li>
+          <li class="list-group-item"><a href="berita-3.php">🌐 Penandatanganan Kontrak Paket Tender/Seleksi Bidang Irigasi dan Rawa</a></li>
+          <li class="list-group-item"><a href="berita-4.php">🌐 Sidang Pleno Ke-I TKPSDA WS Berau - Kelai Tahun 2025</a></li>
+          <li class="list-group-item"><a href="berita-5.php">🌐 Pengembangan Kapasitas TPM untuk sukseskan P3-TGAI Tahun 2025</a></li>
         </ul>
       </div>
     </div>

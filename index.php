@@ -132,7 +132,7 @@
                         <b>About</b>
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="tusi">Tugas dan Fungsi</a></li>
+                        <li><a class="dropdown-item" href="tusi.php">Tugas dan Fungsi</a></li>
                         <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#strukturModal">Struktur Organisasi</a></li>
                         <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#paktaIntegritas">Pakta Integritas</a></li>
                         <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#keuangan">Pagu Anggaran TA 2026</a></li>
@@ -192,8 +192,8 @@
 
           <div id="center-label" style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);text-align:center;pointer-events:none;">
             <div id="c-title" style="font-size:11px;color:#aaa;">Total Pagu</div>
-            <div id="c-pct" style="font-size:16px;font-weight:500;color:#C94F8A;">Rp158,9 jt</div>
-            <div id="c-sub" style="font-size:10px;color:#bbb;">RPM</div>
+            <div id="c-pct" style="font-size:16px;font-weight:500;color:#C94F8A;">Rp158,9 M</div>
+            <div id="c-sub" style="font-size:10px;color:#bbb;"></div>
           </div>
         </div>
 
@@ -277,7 +277,7 @@
             <img src="uploads/img_1.jpg" class="card-img-top" alt="Berita 1">
             <div class="card-body">
               <p class="card-text">Silaturahmi & Sapa Balai Kementerian Pekerjaan Umum.</p>
-              <a href="berita-1" class="btn btn-primary btn-sm">Baca</a>
+              <a href="berita-1.php" class="btn btn-primary btn-sm">Baca</a>
             </div>
           </div>
         </div>
@@ -290,7 +290,7 @@
 
               <p class="card-text">Keluarga Besar BWS Kalimantan V Tanjung Selor mengucapkan
               Selamat Hari Raya Idulfitri 1447 H</p>
-              <a href="berita-2" class="btn btn-primary btn-sm">Baca</a>
+              <a href="berita-2.php" class="btn btn-primary btn-sm">Baca</a>
             </div>
           </div>
         </div>
@@ -301,7 +301,7 @@
             <img src="uploads/img_3.jpg" class="card-img-top" alt="Berita 3">
             <div class="card-body">
                 <p class="card-text">Selamat Hari Air Dunia 💧</p><br>
-              <a href="berita-3" class="btn btn-primary btn-sm">Baca</a>
+              <a href="berita-3.php" class="btn btn-primary btn-sm">Baca</a>
             </div>
           </div>
         </div>
@@ -312,7 +312,7 @@
             <img src="uploads/img_4.jpg" class="card-img-top" alt="Berita 4">
             <div class="card-body">
               <p class="card-text">Kesiapan Posko Arus Mudik Idul Fitri 2026</p><br>
-              <a href="berita-4" class="btn btn-primary btn-sm">Baca</a>
+              <a href="berita-4.php" class="btn btn-primary btn-sm">Baca</a>
             </div>
           </div>
         </div>
@@ -324,7 +324,7 @@
             <img src="uploads/img_5.jpg" class="card-img-top" alt="Berita 3">
             <div class="card-body">
               <p class="card-text">Rapat Pendahuluan Self-Assessment RBO-PB</p><br>
-              <a href="berita-5" class="btn btn-primary btn-sm">Baca</a>
+              <a href="berita-5.php" class="btn btn-primary btn-sm">Baca</a>
             </div>
           </div>
         </div>
@@ -335,7 +335,7 @@
             <img src="uploads/img_8.png" class="card-img-top" alt="Berita 3">
             <div class="card-body">
               <p class="card-text">Jaringan Irigasi Air Tanah (JIAT) : Air adalah kehidupan.</p>
-              <a href="berita-6" class="btn btn-primary btn-sm">Baca</a>
+              <a href="berita-6.php" class="btn btn-primary btn-sm">Baca</a>
             </div>
           </div>
         </div>
@@ -805,10 +805,11 @@
 
 <script>
 const items = [
-  { label: 'SNVT Pelaksanaan Jaringan\nPemanfaatan Air Kaltara', short: 'SNVT Pemanfaatan Air', pct: 38.4, rpm: 61033102, color: '#E8529A' },
-  { label: 'SNVT Pelaksanaan Jaringan\nSumber Air Kaltara', short: 'SNVT Jaringan Sumber Air', pct: 27.9, rpm: 44276129, color: '#C94F8A' },
-  { label: 'Satker Operasi dan\nPemeliharaan SDA Kal V', short: 'OP SDA Kalimantan V', pct: 19.7, rpm: 31270637, color: '#F97B4A' },
-  { label: 'Satker Balai Wilayah\nSungai Kalimantan V', short: 'BWS Kalimantan V', pct: 14.1, rpm: 22357790, color: '#8E44AD' },
+  { label: 'SNVT Pelaksanaan Jaringan\nPemanfaatan Air Kaltara', short: 'SNVT Pemanfaatan Air', pct: 38.4, rpm: 60.98, color: '#E8529A' },
+  { label: 'SNVT Pelaksanaan Jaringan\nSumber Air Kaltara', short: 'SNVT Jaringan Sumber Air', pct: 27.9, rpm: 44.31, color: '#aa3e91' },
+  { label: 'Satker Operasi dan\nPemeliharaan SDA Kal V', short: 'OP SDA Kalimantan V', pct: 19.7, rpm: 31.28, color: '#9837c5' },
+  { label: 'Satker Balai Wilayah\nSungai Kalimantan V', short: 'BWS Kalimantan V', pct: 13.9, rpm: 22.06, color: '#6e019d' },
+  // Total: ~158,63 M ≈ 158,8 M ✓ (selisih pembulatan)
 ];
 
 const c_title = document.getElementById('c-title');
@@ -888,7 +889,7 @@ function showHover(i){
   c_pct.style.color = d.color;
   c_pct.style.fontSize = '26px';
 
-  c_sub.textContent = 'Rp ' + d.rpm.toLocaleString('id-ID');
+  c_sub.textContent = 'Rp ' + d.rpm.toFixed(2) + ' M';;
   c_sub.style.color = '#666';
 }
 
@@ -896,7 +897,7 @@ function resetCenter(){
   if(active !== null) return;
   c_title.textContent = 'Total Pagu';
   c_title.style.color = '#aaa';
-  c_pct.textContent = 'Rp158,9 jt';
+  c_pct.textContent = 'Rp158,9 m';
   c_pct.style.color = '#C94F8A';
   c_pct.style.fontSize = '16px';
   c_sub.textContent = 'RPM';
@@ -916,7 +917,7 @@ function toggleDetail(i){
     box.style.background=d.color;
     detail_name.textContent = d.label.replace('\n',' ');
     detail_pct.textContent = d.pct+'%';
-    detail_rpm.textContent = 'RPM: Rp '+d.rpm.toLocaleString('id-ID');
+    detail_rpm.textContent = 'RPM: Rp ' + d.rpm.toFixed(2) + ' M';
   }
 }
 </script>
